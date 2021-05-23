@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Case Study">
+    <test name="Test Case Study Chrome">
+        <parameter name="url" value="https://miro.com/"/>
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class
+                    name="testcases.TestCaseStudy">
+            </class>
+        </classes>
+    </test>
+</suite>
+
